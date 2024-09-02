@@ -1,6 +1,6 @@
 name: Deploy Python App to Vercel
 
-on:
+"on":
   push:
     branches:
       - dev
@@ -16,13 +16,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.9" # Specify the Python version you need
+          python-version: "3.9"
 
       - name: Install dependencies
-        run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r requirements.txt
+        run: pip3 install -r requirements.txt
 
       - name: Build the project
         run: |
