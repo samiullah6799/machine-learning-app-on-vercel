@@ -1,6 +1,6 @@
-pandas
-joblib
+#pandas
+#joblib
 numpy 
 #scikit-learn
-requests
+#requests
 flask

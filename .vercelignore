@@ -1,0 +1,13 @@
+# .vercelignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.log
+.git/
+model.py
+Makefile
+request.py
+Salary_Dataset.csv
